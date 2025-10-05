@@ -37,7 +37,7 @@ function setActiveButton(buttonsArray, theme) {
     button.removeAttribute('disabled');
   });
   const target = buttonsArray.find((button) =>
-    button.classList.contains(`header__theme-menu-button_type_${theme}`)
+  button.classList.contains(`header__theme-menu-button_type_${theme}`)
   );
   if (target) {
     target.classList.add('header__theme-menu-button_active');
